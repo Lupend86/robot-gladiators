@@ -47,7 +47,7 @@ var randomNumber = function(min, max) {
   
     // randomly change turn order
     if (Math.random() > 0.5) {
-      isPlayerTurn = false;
+        isPlayerTurn = false;
     }
   
     while (playerInfo.health > 0 && enemy.health > 0) {
